@@ -1,0 +1,182 @@
+//Base
+@import "base.scss";
+
+b{font-family: $forte;}
+
+//Graf Editoria
+.graf-editoria-post{
+	height: 44px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align: center;
+	width: 178px;
+
+	div{
+		height: 44px;
+	}
+
+}
+
+//Capa do post
+.capa-post{
+	background-size: 100% auto;
+	height: 30%;
+}
+
+//Page
+.page{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+
+	.capa-post{
+		//background: no-repeat center center; 
+		-webkit-background-size: 100% auto;
+		-moz-background-size: 100% auto;
+		-o-background-size: 100% auto;
+		background-size: 100% auto;
+		background-position: 0 -100px;
+		display: table;
+		height: 400px;
+		margin-top: 30px;
+		width: 100%;	
+
+		img{
+			display: none;
+			height: auto;
+			width: 100%;
+		}
+
+	}
+
+	img{
+		height: auto;
+		width: 100%;
+	}
+
+	h1{
+		font-family: $titulo-fino;
+		font-size: 2em;
+	}
+
+	h2{
+		line-height: 20px;
+		margin-top: 10px;
+		font-family: $titulo;
+		font-size: 1.1em;
+		font-weight: normal;
+	}
+
+	p{
+		font-family: $titulo;
+		line-height: 20px;
+		margin-bottom: 15px;
+		text-align: justify;
+	}
+
+	.destaque_text{
+		font-family: $destaque;
+		font-size: 1.7em;
+		font-style: italic;
+		line-height: 31px;
+		text-align: right;
+
+		span{
+			color: #000;
+			display: block;
+			font-family: $forte;
+			font-size: .7em;
+			margin-top: 15px;
+		}
+
+	}
+
+	.post-top{
+		display: block;
+		margin-bottom: 30px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+		position: relative;
+
+		.line{
+			border-top: 3px solid;
+			display: block;
+			position: absolute;
+			width: 20%;
+		}
+
+		._top{
+			top: 0;
+		}
+
+		._bottom{
+			bottom: 0;
+		}
+
+	}
+
+	.post{
+		strong{
+			font-family: $forte;
+		}
+	}
+
+}
+
+/*Strong on IE*/
+.no-backgroundsize{
+
+	.post{
+		strong{
+			font-weight: bold !important;
+		}
+	}
+
+}
+  
+/* ==================================================================
+	>1220px
+================================================================== */
+@media screen and (max-width: 1220px) {
+	.page{
+		.capa-post{
+			background-repeat: no-repeat !important;
+			height: 350px !important;
+		}
+	}
+
+}
+
+/* ==================================================================
+	>910px
+================================================================== */
+@media screen and (max-width: 910px) {
+	.page{
+		.capa-post{
+			height: 300px !important;
+		}
+
+		.post{
+			float: none !important;
+			width: 100%;
+		}
+
+		.destaque{
+			display: none !important;
+		}
+	}
+}
+
+/* ==================================================================
+	>910px
+================================================================== */
+@media screen and (max-width: 750px) {
+	.page{
+		.capa-post{
+			background-position: 0 0 !important;
+			background-repeat: no-repeat !important;
+			height: 250px !important;
+		}
+	}
+}

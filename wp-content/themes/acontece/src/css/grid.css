@@ -1,0 +1,50 @@
+/* line 2, ../scss/grid.scss */
+._col {
+  float: left;
+  padding: 1%;
+  position: relative; }
+
+/* line 8, ../scss/grid.scss */
+.__100pc {
+  margin: 0.5%;
+  width: 97%; }
+
+/* line 13, ../scss/grid.scss */
+.__90pc {
+  margin: 0.5%;
+  width: 87%; }
+
+/* line 18, ../scss/grid.scss */
+.__80pc {
+  margin: 0.5%;
+  width: 77%; }
+
+/* line 23, ../scss/grid.scss */
+.__70pc {
+  margin: 0.5%;
+  width: 67%; }
+
+/* line 28, ../scss/grid.scss */
+.__60pc {
+  margin: 0.5%;
+  width: 57%; }
+
+/* line 33, ../scss/grid.scss */
+.__50pc {
+  margin: 0.5%;
+  width: 47%; }
+
+/* line 38, ../scss/grid.scss */
+.__40pc {
+  margin: 0.5%;
+  width: 37%; }
+
+/* line 43, ../scss/grid.scss */
+.__30pc {
+  margin: 0.5%;
+  width: 27%; }
+
+/* line 48, ../scss/grid.scss */
+.__20pc {
+  margin: 0.5%;
+  width: 17%; }

@@ -1,0 +1,678 @@
+/* line 17, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 2, ../scss/grid.scss */
+._col {
+  float: left;
+  padding: 1%;
+  position: relative; }
+
+/* line 8, ../scss/grid.scss */
+.__100pc {
+  margin: 0.5%;
+  width: 97%; }
+
+/* line 13, ../scss/grid.scss */
+.__90pc {
+  margin: 0.5%;
+  width: 87%; }
+
+/* line 18, ../scss/grid.scss */
+.__80pc {
+  margin: 0.5%;
+  width: 77%; }
+
+/* line 23, ../scss/grid.scss */
+.__70pc {
+  margin: 0.5%;
+  width: 67%; }
+
+/* line 28, ../scss/grid.scss */
+.__60pc {
+  margin: 0.5%;
+  width: 57%; }
+
+/* line 33, ../scss/grid.scss */
+.__50pc {
+  margin: 0.5%;
+  width: 47%; }
+
+/* line 38, ../scss/grid.scss */
+.__40pc {
+  margin: 0.5%;
+  width: 37%; }
+
+/* line 43, ../scss/grid.scss */
+.__30pc {
+  margin: 0.5%;
+  width: 27%; }
+
+/* line 48, ../scss/grid.scss */
+.__20pc {
+  margin: 0.5%;
+  width: 17%; }
+
+@font-face {
+  font-family: 'LinoLetterStd_Italic';
+  src: url("font/LinoLetterStd-Italic.eot?") format("eot"), url("font/LinoLetterStd-Italic.otf") format("opentype"), url("font/LinoLetterStd-Italic.woff") format("woff"), url("font/LinoLetterStd-Italic.ttf") format("truetype"), url("font/LinoLetterStd-Italic.svg#LinoLetterStd-Italic") format("svg"); }
+
+@font-face {
+  font-family: 'NHaasGroteskDSPro_UltTh';
+  src: url("font/NHaasGroteskDSPro-15UltTh.eot?") format("eot"), url("font/NHaasGroteskDSPro-15UltTh.otf") format("opentype"), url("font/NHaasGroteskDSPro-15UltTh.woff") format("woff"), url("font/NHaasGroteskDSPro-15UltTh.ttf") format("truetype"), url("font/NHaasGroteskDSPro-15UltTh.svg#NHaasGroteskDSPro-15UltTh") format("svg"); }
+
+@font-face {
+  font-family: 'NHaasGroteskDSPro_Lt';
+  src: url("font/NHaasGroteskDSPro-45Lt.eot?") format("eot"), url("font/NHaasGroteskDSPro-45Lt.otf") format("opentype"), url("font/NHaasGroteskDSPro-45Lt.woff") format("woff"), url("font/NHaasGroteskDSPro-45Lt.ttf") format("truetype"), url("font/NHaasGroteskDSPro-45Lt.svg#NHaasGroteskDSPro-45Lt") format("svg"); }
+
+@font-face {
+  font-family: 'NHaasGroteskDSPro_Md';
+  src: url("font/NHaasGroteskDSPro-65Md.eot?") format("eot"), url("font/NHaasGroteskDSPro-65Md.otf") format("opentype"), url("font/NHaasGroteskDSPro-65Md.woff") format("woff"), url("font/NHaasGroteskDSPro-65Md.ttf") format("truetype"), url("font/NHaasGroteskDSPro-65Md.svg#NHaasGroteskDSPro-65Md") format("svg"); }
+
+/* line 21, ../scss/base.scss */
+a, a:link, a:visited {
+  color: #2d529a;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+/* line 27, ../scss/base.scss */
+a:hover {
+  outline-bottom: 1px solid #2d529a; }
+
+/* line 32, ../scss/base.scss */
+.top-all {
+  background-color: #fff;
+  filter: alpha(opacity=80);
+  padding: 0;
+  position: relative;
+  width: 100%; }
+  /* line 41, ../scss/base.scss */
+  .top-all .menu-mob {
+    display: none; }
+  /* line 45, ../scss/base.scss */
+  .top-all .top {
+    display: table;
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 51, ../scss/base.scss */
+    .top-all .top .logo {
+      float: left;
+      position: relative;
+      width: 294px; }
+    /* line 58, ../scss/base.scss */
+    .top-all .top .arquivos {
+      background-color: #2d529a;
+      color: #fff;
+      font-family: "NHaasGroteskDSPro_Md", sans-serif;
+      font-size: 1.6em;
+      margin-top: 30px;
+      padding: 5px;
+      position: absolute;
+      right: 10%;
+      z-index: 9999;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      /* line 69, ../scss/base.scss */
+      .top-all .top .arquivos ul {
+        list-style: none; }
+      /* line 73, ../scss/base.scss */
+      .top-all .top .arquivos a, .top-all .top .arquivos a:link, .top-all .top .arquivos a:visited {
+        color: #fff;
+        text-decoration: none; }
+      /* line 76, ../scss/base.scss */
+      .top-all .top .arquivos .arquivos_drop-list {
+        display: none; }
+        /* line 79, ../scss/base.scss */
+        .top-all .top .arquivos .arquivos_drop-list li:first-child {
+          border-top: 1px solid #fff; }
+        /* line 83, ../scss/base.scss */
+        .top-all .top .arquivos .arquivos_drop-list li {
+          border-bottom: 1px solid #fff;
+          padding: 3px 1px 3px 1px; }
+    /* line 93, ../scss/base.scss */
+    .top-all .top .block-right {
+      text-align: right; }
+      /* line 96, ../scss/base.scss */
+      .top-all .top .block-right li {
+        margin-bottom: 10px; }
+      /* line 101, ../scss/base.scss */
+      .top-all .top .block-right .menu {
+        z-index: 9999; }
+        /* line 104, ../scss/base.scss */
+        .top-all .top .block-right .menu li {
+          display: inline-table;
+          margin-left: 10px; }
+          /* line 108, ../scss/base.scss */
+          .top-all .top .block-right .menu li a, .top-all .top .block-right .menu li a:link, .top-all .top .block-right .menu li a:visited {
+            border-bottom: 2px solid #fff;
+            color: #2d529a;
+            font-family: "NHaasGroteskDSPro_Lt", sans-serif;
+            font-size: 1.2em;
+            text-decoration: none;
+            -webkit-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out; }
+          /* line 117, ../scss/base.scss */
+          .top-all .top .block-right .menu li a:hover {
+            border-bottom: 2px solid #2d529a;
+            text-shadow: 0px 0px 3px #b0cbff; }
+          /* line 122, ../scss/base.scss */
+          .top-all .top .block-right .menu li .editoria-drop-content {
+            background-color: #2d529a;
+            color: #fff;
+            display: none;
+            padding: 10px;
+            position: absolute;
+            z-index: 9999; }
+            /* line 130, ../scss/base.scss */
+            .top-all .top .block-right .menu li .editoria-drop-content li {
+              border-bottom: 1px solid #3373b1;
+              display: block;
+              font-size: .9em;
+              margin-bottom: 5px;
+              margin-left: 0;
+              padding-bottom: 6px;
+              padding-top: 6px;
+              text-align: left;
+              width: 100%; }
+              /* line 142, ../scss/base.scss */
+              .top-all .top .block-right .menu li .editoria-drop-content li a {
+                border: 0 !important;
+                color: #fff !important; }
+      /* line 158, ../scss/base.scss */
+      .top-all .top .block-right .busca-all input[type="text"] {
+        background: url();
+        border: 1px solid #ccc;
+        font-family: "NHaasGroteskDSPro_UltTh", sans-serif;
+        font-size: 1em;
+        text-align: right;
+        outline: none; }
+      /* line 167, ../scss/base.scss */
+      .top-all .top .block-right .busca-all button {
+        background: url();
+        border: 0px;
+        bottom: 0px;
+        padding: 0; }
+
+/* line 183, ../scss/base.scss */
+.footer-all {
+  background-color: #2b76c1;
+  border-top: 3px solid #2d529a;
+  color: #fff;
+  height: 230px;
+  position: relative;
+  font-family: "NHaasGroteskDSPro_Lt", sans-serif;
+  width: 100%; }
+  /* line 192, ../scss/base.scss */
+  .footer-all a, .footer-all a:link, .footer-all a:visited {
+    border-bottom: 2px solid #2b76c1;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+  /* line 199, ../scss/base.scss */
+  .footer-all a:hover {
+    border-bottom: 2px solid #2d529a;
+    text-shadow: 0px 0px 3px #b0cbff; }
+  /* line 204, ../scss/base.scss */
+  .footer-all .footer-in {
+    margin-left: auto;
+    margin-right: auto; }
+    /* line 208, ../scss/base.scss */
+    .footer-all .footer-in .footer-left {
+      position: relative;
+      float: left;
+      z-index: 9999; }
+      /* line 213, ../scss/base.scss */
+      .footer-all .footer-in .footer-left li {
+        display: inline-block;
+        margin-right: 10px; }
+    /* line 220, ../scss/base.scss */
+    .footer-all .footer-in .footer-right {
+      position: relative;
+      float: right; }
+  /* line 227, ../scss/base.scss */
+  .footer-all .hover-footer {
+    background: url("../img/hover-footer.png") no-repeat;
+    display: block;
+    height: 210px;
+    position: absolute;
+    left: 0;
+    width: 200px;
+    z-index: 1; }
+
+/* line 241, ../scss/base.scss */
+.no-backgroundsize .top-all {
+  height: 160px; }
+  /* line 244, ../scss/base.scss */
+  .no-backgroundsize .top-all .logo {
+    float: none !important; }
+  /* line 248, ../scss/base.scss */
+  .no-backgroundsize .top-all .arquivos {
+    left: 0;
+    margin-bottom: 10px;
+    margin-top: 5px !important;
+    position: relative !important;
+    text-align: center;
+    width: 300px; }
+/* line 260, ../scss/base.scss */
+.no-backgroundsize .__80pc {
+  width: 1000px !important; }
+/* line 264, ../scss/base.scss */
+.no-backgroundsize .capa-post {
+  height: auto !important; }
+  /* line 267, ../scss/base.scss */
+  .no-backgroundsize .capa-post img {
+    display: block !important; }
+
+/* ==================================================================
+	>1220px
+================================================================== */
+@media screen and (max-width: 1220px) {
+  /* line 279, ../scss/base.scss */
+  .top-all {
+    height: 160px; }
+    /* line 282, ../scss/base.scss */
+    .top-all .logo {
+      float: none !important; }
+    /* line 286, ../scss/base.scss */
+    .top-all .arquivos {
+      left: 0;
+      margin-bottom: 10px;
+      margin-top: 5px !important;
+      position: relative !important;
+      text-align: center;
+      width: 300px; } }
+/* ==================================================================
+	>910px
+================================================================== */
+@media screen and (max-width: 910px) {
+  /* line 303, ../scss/base.scss */
+  .block-right {
+    display: none; }
+
+  /* line 307, ../scss/base.scss */
+  .block-left {
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 310px; }
+    /* line 314, ../scss/base.scss */
+    .block-left .menu-mob {
+      display: block !important; }
+      /* line 317, ../scss/base.scss */
+      .block-left .menu-mob select {
+        width: 300px; }
+
+  /* line 326, ../scss/base.scss */
+  .footer-left li {
+    display: block !important;
+    margin-bottom: 8px; } }
+/* line 5, ../scss/home.scss */
+.top-all {
+  border-bottom: 3px solid #2d529a !important; }
+
+/* line 8, ../scss/home.scss */
+.graf-editoria-page {
+  display: none; }
+
+/* line 11, ../scss/home.scss */
+.slider-all {
+  border-bottom: 1px solid #2d529a;
+  height: 332px;
+  position: relative;
+  width: 100%; }
+  /* line 18, ../scss/home.scss */
+  .slider-all .hover-slider {
+    background: url("../img/slider-hover.png") no-repeat;
+    display: block;
+    height: 532px;
+    position: absolute;
+    right: 0;
+    width: 506px;
+    z-index: 2; }
+  /* line 28, ../scss/home.scss */
+  .slider-all .seta-left {
+    display: block;
+    height: 60px;
+    left: 10px;
+    margin-top: -30px;
+    position: absolute;
+    top: 50%;
+    width: 54px;
+    z-index: 9999; }
+  /* line 39, ../scss/home.scss */
+  .slider-all .seta-right {
+    display: block;
+    height: 60px;
+    right: 10px;
+    margin-top: -30px;
+    position: absolute;
+    top: 50%;
+    width: 54px;
+    z-index: 9999; }
+  /* line 50, ../scss/home.scss */
+  .slider-all #nav {
+    bottom: 10px;
+    height: 30px;
+    left: 50%;
+    margin-left: -50px;
+    position: absolute;
+    width: 100px;
+    z-index: 9999; }
+    /* line 60, ../scss/home.scss */
+    .slider-all #nav li {
+      background-color: #ccc;
+      display: inline-block;
+      height: 30px;
+      margin-right: 5px;
+      width: 30px;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+      border-radius: 50px; }
+      /* line 68, ../scss/home.scss */
+      .slider-all #nav li a {
+        display: block;
+        height: 30px;
+        width: 30px; }
+    /* line 76, ../scss/home.scss */
+    .slider-all #nav .activeSlide {
+      background-color: #aaa; }
+  /* line 82, ../scss/home.scss */
+  .slider-all .sequence-canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+    /* line 88, ../scss/home.scss */
+    .slider-all .sequence-canvas li {
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      z-index: 1; }
+      /* line 94, ../scss/home.scss */
+      .slider-all .sequence-canvas li .slider-img {
+        background-size: 100% auto;
+        height: 100%;
+        position: absolute;
+        width: 100%; }
+      /* line 102, ../scss/home.scss */
+      .slider-all .sequence-canvas li .slide-title {
+        top: 7.7%;
+        position: absolute;
+        right: 13%;
+        z-index: 9999; }
+        /* line 108, ../scss/home.scss */
+        .slider-all .sequence-canvas li .slide-title h1 {
+          color: #fff;
+          font-size: 2.3em;
+          font-family: "NHaasGroteskDSPro_UltTh", sans-serif; }
+      /* line 116, ../scss/home.scss */
+      .slider-all .sequence-canvas li .slide-text {
+        top: 20%;
+        position: absolute;
+        right: 13%;
+        z-index: 9999; }
+        /* line 122, ../scss/home.scss */
+        .slider-all .sequence-canvas li .slide-text p {
+          color: #fff;
+          font-size: 1.2em;
+          font-family: "NHaasGroteskDSPro_Lt", sans-serif;
+          text-align: right;
+          width: 350px; }
+
+/* line 138, ../scss/home.scss */
+.fixo {
+  display: block;
+  position: fixed !important;
+  top: 0;
+  z-index: -1 !important; }
+  /* line 144, ../scss/home.scss */
+  .fixo .slide-title {
+    top: 3% !important; }
+  /* line 148, ../scss/home.scss */
+  .fixo .slide-text {
+    top: 7.7% !important; }
+
+/* line 154, ../scss/home.scss */
+.editorias-all {
+  background-color: #FFF;
+  height: 400px;
+  width: 100%;
+  z-index: 99; }
+
+/* line 163, ../scss/home.scss */
+.editorias {
+  font-family: "NHaasGroteskDSPro_UltTh", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  z-index: 9999; }
+  /* line 170, ../scss/home.scss */
+  .editorias a, .editorias a:link, .editorias a:visited {
+    border-bottom: 2px solid #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+  /* line 177, ../scss/home.scss */
+  .editorias a:hover {
+    text-shadow: 0px 0px 3px #b0cbff; }
+  /* line 181, ../scss/home.scss */
+  .editorias .garf-editoria {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    width: 180px; }
+    /* line 188, ../scss/home.scss */
+    .editorias .garf-editoria h1 {
+      color: #2d529a;
+      font-family: "NHaasGroteskDSPro_UltTh", sans-serif;
+      font-size: 1.8em;
+      margin-top: 10px; }
+  /* line 197, ../scss/home.scss */
+  .editorias .editorias-lista {
+    float: none;
+    margin-bottom: 60px;
+    /*
+    li:nth-child(3), li:nth-child(6), li:nth-child(9)
+    li:nth-child(12), li:nth-child(15){
+    	margin-right: 0 !important;
+    }
+    */ }
+    /* line 201, ../scss/home.scss */
+    .editorias .editorias-lista ul {
+      width: 100%; }
+      /* line 204, ../scss/home.scss */
+      .editorias .editorias-lista ul li {
+        display: inline-block;
+        margin-bottom: 1%;
+        width: 33%; }
+    /* line 213, ../scss/home.scss */
+    .editorias .editorias-lista .seguranca, .editorias .editorias-lista .meio-ambiente, .editorias .editorias-lista .inovacao, .editorias .editorias-lista .mercado, .editorias .editorias-lista .cidadania {
+      width: 30% !important; }
+    /* line 218, ../scss/home.scss */
+    .editorias .editorias-lista .acontece, .editorias .editorias-lista .desenvolvimento, .editorias .editorias-lista .performace-operacional, .editorias .editorias-lista .entrevista,
+    .editorias .editorias-lista .governanca-corporativa {
+      width: 43% !important; }
+    /* line 223, ../scss/home.scss */
+    .editorias .editorias-lista .fique-por-dentro, .editorias .editorias-lista .materia-de-capa, .editorias .editorias-lista .nossa-gente, .editorias .editorias-lista .saude-bem-estar,
+    .editorias .editorias-lista .comportamento {
+      width: 25% !important; }
+    /* line 229, ../scss/home.scss */
+    .editorias .editorias-lista .seguranca a {
+      color: #244595; }
+    /* line 234, ../scss/home.scss */
+    .editorias .editorias-lista .acontece a {
+      color: #83d0e3; }
+    /* line 239, ../scss/home.scss */
+    .editorias .editorias-lista .fique-por-dentro a {
+      color: #2e86c9; }
+    /* line 244, ../scss/home.scss */
+    .editorias .editorias-lista .meio-ambiente a {
+      color: #2db778; }
+    /* line 249, ../scss/home.scss */
+    .editorias .editorias-lista .desenvolvimento a {
+      color: #83a741; }
+    /* line 254, ../scss/home.scss */
+    .editorias .editorias-lista .materia-de-capa a {
+      color: #1d8643; }
+    /* line 259, ../scss/home.scss */
+    .editorias .editorias-lista .inovacao a {
+      color: #8eaddb; }
+    /* line 264, ../scss/home.scss */
+    .editorias .editorias-lista .performace-operacional a {
+      color: #e9362c; }
+    /* line 269, ../scss/home.scss */
+    .editorias .editorias-lista .nossa-gente a {
+      color: #aca19b; }
+    /* line 274, ../scss/home.scss */
+    .editorias .editorias-lista .mercado a {
+      color: #efb5d4; }
+    /* line 279, ../scss/home.scss */
+    .editorias .editorias-lista .entrevista a {
+      color: #982629; }
+    /* line 284, ../scss/home.scss */
+    .editorias .editorias-lista .saude-bem-estar a {
+      color: #51c1be; }
+    /* line 289, ../scss/home.scss */
+    .editorias .editorias-lista .cidadania a {
+      color: #708a99; }
+    /* line 294, ../scss/home.scss */
+    .editorias .editorias-lista .governanca-corporativa a {
+      color: #7c2952; }
+    /* line 299, ../scss/home.scss */
+    .editorias .editorias-lista .comportamento a {
+      color: #2a5252; }
+
+/* ==================================================================
+	>1220px
+================================================================== */
+@media screen and (max-width: 1220px) {
+  /* line 319, ../scss/home.scss */
+  .editorias-all {
+    display: table;
+    height: auto !important; }
+    /* line 324, ../scss/home.scss */
+    .editorias-all .editorias-lista li {
+      display: block !important;
+      margin-bottom: 10px !important;
+      margin-right: 30px;
+      width: 40% !important; } }
+/* ==================================================================
+	>910px
+================================================================== */
+@media screen and (max-width: 910px) {
+  /* line 341, ../scss/home.scss */
+  .slider-all {
+    height: 265px !important; }
+    /* line 344, ../scss/home.scss */
+    .slider-all .slide-title {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 3px;
+      right: 2% !important; }
+      /* line 349, ../scss/home.scss */
+      .slider-all .slide-title h1 {
+        font-size: 1.4em !important; }
+    /* line 355, ../scss/home.scss */
+    .slider-all .slide-text {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 3px;
+      right: 2% !important;
+      width: 90% !important; }
+      /* line 361, ../scss/home.scss */
+      .slider-all .slide-text p {
+        font-size: .9em !important;
+        width: 100% !important; }
+    /* line 368, ../scss/home.scss */
+    .slider-all .seta-left {
+      left: 0px !important;
+      margin-top: -60px;
+      top: 100%; }
+    /* line 374, ../scss/home.scss */
+    .slider-all .seta-right {
+      margin-top: -60px;
+      right: 0px !important;
+      top: 100%; }
+
+  /* line 382, ../scss/home.scss */
+  .editorias-all {
+    height: 750px; }
+    /* line 386, ../scss/home.scss */
+    .editorias-all .editorias-lista li {
+      display: block !important;
+      margin-bottom: 10px !important;
+      width: 70% !important; } }
+/* ==================================================================
+	>560px
+================================================================== */
+@media screen and (max-width: 520px) {
+  /* line 402, ../scss/home.scss */
+  .slider-all {
+    height: 220px !important; } }

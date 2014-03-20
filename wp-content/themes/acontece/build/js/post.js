@@ -1,0 +1,1 @@
+$(function(){var t=$(".post-top").height(),o=t+73;$(".destaque").css("padding-top",o)}),$(document).ready(function(){$(".post > img").facebox()});

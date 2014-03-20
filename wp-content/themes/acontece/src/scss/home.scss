@@ -1,0 +1,406 @@
+//Base
+@import "base.scss";
+
+//Border top bug
+.top-all{border-bottom: 3px solid $azul !important;}
+
+//Graf editorias home bug
+.graf-editoria-page{display: none;}
+
+//Slider
+.slider-all{
+	border-bottom: 1px solid $azul;
+	height: 332px;
+	position: relative;
+	width: 100%;
+	//z-index: -1;
+
+	.hover-slider{
+		background: url("../img/slider-hover.png") no-repeat;
+		display: block;
+		height: 532px;
+		position: absolute;
+		right: 0;
+		width: 506px;
+		z-index: 2;
+	}
+
+	.seta-left{
+		display: block;
+		height: 60px;
+		left: 10px;
+		margin-top: -30px;
+		position: absolute;
+		top: 50%;
+		width: 54px;
+		z-index: 9999;
+	}
+
+	.seta-right{
+		display: block;
+		height: 60px;
+		right: 10px;
+		margin-top: -30px;
+		position: absolute;
+		top: 50%;
+		width: 54px;
+		z-index: 9999;
+	}
+
+	#nav{
+		//background-color: #000;
+		bottom: 10px;
+		height: 30px;
+		left: 50%;
+		margin-left: -50px;
+		position: absolute;
+		width: 100px;
+		z-index: 9999;
+
+		li{
+			background-color: #ccc;
+			display: inline-block;
+			height: 30px;
+			margin-right: 5px;
+			width: 30px; 
+			@include border-radius(50px);
+		
+			a{
+				display: block;
+				height: 30px;
+				width: 30px;
+			}
+
+		}
+
+		.activeSlide{
+			background-color: #aaa;
+		}
+
+	}
+
+	.sequence-canvas{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+
+		li{
+			height: 100%;
+			position: absolute;
+			width: 100%;
+			z-index: 1;
+
+			.slider-img{
+				background-size: 100% auto;
+				height: 100%;
+				position: absolute;
+				width: 100%;
+			}
+
+
+			.slide-title{
+				top: 7.7%;
+				position: absolute;
+				right: 13%;
+				z-index: 9999;
+
+				h1{
+					color: #fff;
+					font-size: 2.3em;
+					font-family: $titulo-fino;
+				}
+
+			}
+
+			.slide-text{
+				top: 20%;
+				position: absolute;
+				right: 13%;
+				z-index: 9999;
+
+				p{
+					color: #fff;
+					font-size: 1.2em;
+					font-family: $titulo;
+					text-align: right;
+					width: 350px;
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+.fixo{
+	display: block;
+	position: fixed !important;
+	top: 0;
+	z-index: -1 !important;
+
+	.slide-title{
+		top: 3% !important;
+	}
+
+	.slide-text{
+		top: 7.7% !important;
+	}
+
+}
+
+.editorias-all{
+	//position: absolute;
+	background-color: #FFF;
+	height: 400px;
+	width: 100%;
+	z-index: 99;
+}
+
+//Editorias
+.editorias{
+	font-family: $titulo-fino;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	z-index: 9999;
+
+	a, a:link, a:visited{
+		border-bottom: 2px solid #fff;
+		font-size: 1.5em;
+		text-decoration: none;
+		@include transition(all .5s ease-in-out);
+	}
+
+	a:hover{
+		@include text-shadow(0px 0px 3px #B0CBFF)
+	}
+
+	.garf-editoria{
+		margin-left: auto;
+		margin-right: auto;
+		position: relative;
+		text-align: center;
+		width: 180px;
+
+		h1{
+			color: $azul;
+			font-family: $titulo-fino;
+			font-size: 1.8em;
+			margin-top: 10px;
+		}
+
+	}
+
+	.editorias-lista{
+		float: none;
+		margin-bottom: 60px;
+
+		ul{
+			width: 100%;
+
+			li{
+				display: inline-block;
+				margin-bottom: 1%;
+				//margin-right: 50px;
+				width: 33%;
+			}
+
+		}	
+
+		.seguranca, .meio-ambiente, .inovacao, .mercado, .cidadania{
+			width: 30% !important;
+		}
+
+		.acontece, .desenvolvimento, .performace-operacional, .entrevista, 
+		.governanca-corporativa{
+			width: 43% !important;
+		}
+
+		.fique-por-dentro, .materia-de-capa, .nossa-gente, .saude-bem-estar,
+		.comportamento{
+			width: 25% !important;
+		}
+
+		//Editorias
+		.seguranca{
+			a{
+				color: #244595;
+			}
+		}
+		.acontece{
+			a{
+				color: #83d0e3;
+			}
+		}
+		.fique-por-dentro{
+			a{
+				color: #2e86c9;
+			}
+		}
+		.meio-ambiente{
+			a{
+				color: #2db778;
+			}
+		}
+		.desenvolvimento{
+			a{
+				color: #83a741;
+			}
+		}
+		.materia-de-capa{
+			a{
+				color: #1d8643;
+			}
+		}
+		.inovacao{
+			a{
+				color: #8eaddb;
+			}
+		}
+		.performace-operacional{
+			a{
+				color: #e9362c;
+			}
+		}
+		.nossa-gente{
+			a{
+				color: #aca19b;
+			}
+		}
+		.mercado{
+			a{
+				color: #efb5d4;
+			}
+		}
+		.entrevista{
+			a{
+				color: #982629;
+			}
+		}
+		.saude-bem-estar{
+			a{
+				color: #51c1be;
+			}
+		}
+		.cidadania{
+			a{
+				color: #708a99;
+			}
+		}
+		.governanca-corporativa{
+			a{
+				color: #7c2952;
+			}
+		}
+		.comportamento{
+			a{
+				color: #2a5252;
+			}
+		}
+
+
+		/*
+		li:nth-child(3), li:nth-child(6), li:nth-child(9)
+		li:nth-child(12), li:nth-child(15){
+			margin-right: 0 !important;
+		}
+		*/
+
+	}
+
+}
+/* ==================================================================
+	>1220px
+================================================================== */
+@media screen and (max-width: 1220px) {
+	.editorias-all{
+		display: table;
+		height: auto !important;
+
+		.editorias-lista{
+			li{
+				display: block !important;
+				margin-bottom: 10px !important;
+				margin-right: 30px;
+				width: 40% !important;
+			}
+
+		}
+
+	}
+
+}
+
+/* ==================================================================
+	>910px
+================================================================== */
+@media screen and (max-width: 910px) {
+	.slider-all{
+		height: 265px !important;
+
+		.slide-title{
+			background-color: rgba(255, 255, 255, 0.8);
+			padding: 3px;
+			right: 2% !important;
+
+			h1{
+				font-size: 1.4em !important;
+			}
+
+		}
+
+		.slide-text{
+			background-color: rgba(255, 255, 255, 0.8);
+			padding: 3px;
+			right: 2% !important;
+			width: 90% !important;
+
+			p{
+				font-size: .9em !important;
+				width: 100% !important;
+			}
+
+		}
+
+		.seta-left{
+			left: 0px !important;
+			margin-top: -60px;
+			top: 100%;
+		}
+
+		.seta-right{
+			margin-top: -60px;
+			right: 0px !important;
+			top: 100%;
+		}
+
+	}
+
+	.editorias-all{
+		height: 750px;
+
+		.editorias-lista{
+			li{
+				display: block !important;
+				margin-bottom: 10px !important;
+				width: 70% !important;
+			}
+
+		}
+
+	}
+
+}
+
+/* ==================================================================
+	>560px
+================================================================== */
+@media screen and (max-width: 520px) {
+	.slider-all{
+		height: 220px !important;
+	}
+
+}

@@ -1,0 +1,203 @@
+//Base
+@import "base.scss";
+
+.graf-editoria-page{
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align: center;
+	width: 500px;
+
+	div{
+		height: 44px !important;
+	}
+
+	h1{
+		font-family: $titulo-fino;
+		font-size: 2em;
+		margin-top: 10px;
+		text-align: center;
+		width: 500px;
+	}
+}
+
+//Page
+.page{
+	display: table;
+	height: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+
+	a, a:link, a:active, a:visited{
+		text-decoration: none;
+	}
+	
+	h1{
+		font-family: $titulo-fino;
+		font-size: 1.6em;
+		margin-bottom: 25px;
+	}
+
+	.post-text{
+		float: left;
+		margin-right: 5%;
+		width: 65%;
+
+		p{
+			color: #000;
+			font-family: $titulo;
+			font-size: 1em;
+			line-height: 20px;
+			text-align: justify;
+
+			a{
+				margin-top: 10px;
+				text-decoration: underline;
+			}
+
+		}
+
+		.alignleft{
+			float: left;
+			margin-right: 10px;
+		}
+
+	}
+
+	.post_list-thumbnail{
+		float: right;
+		width: 30%;
+
+		img{
+			height: auto;
+			width: 100%;
+		}
+
+	}
+
+}
+
+//Lista de Editorias antigas
+.old-category-all{
+	background-color: #eee;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	padding: 5px;
+	position: relative;
+
+	.old-category{
+		color: #ccc;
+		font-family: $titulo;
+
+		.cat-item{display: none;}
+
+		.current-cat, .current-cat-parent{
+			display: inline-block !important;
+
+			a:first-child{
+				font-family: $forte;
+				padding: 3px;
+			}
+
+			.children{
+				margin-top: 5px;
+			}
+			
+			.cat-item{
+				display: inline-block !important;
+			}
+
+			li{
+				background-color: $azul;
+				color: #fff !important;
+				display: inline-block !important;
+				margin: 1px 1px 3px 1px;
+				padding: 10px;
+				@include transition(all .5s ease-in-out);
+
+				a{
+					font-family: $forte !important;
+					color: #fff !important;
+				}
+
+			}
+
+			li:hover{
+
+				background-color: #fff;
+				color: $azul !important;
+				outline: 1px solid $azul;
+
+				a{
+					color: $azul !important;
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+/* ==================================================================
+	>910px
+================================================================== */
+@media screen and (max-width: 910px) {
+	.page{
+		border-left: 0 !important;
+		padding-left: 0 !important;
+
+		.post_list-thumbnail{
+			float: none;
+			height: auto;
+			margin-bottom: 15px;
+			width: 100%;
+
+			img{
+				width: 100%;
+				height: auto;
+			}
+
+		}
+
+		.post-text{
+			float: none !important;
+			width: 100%;
+		}
+
+	}
+
+	.graf-editoria-page{
+		h1{
+			width: 100% !important;
+		}
+	}
+
+}
+
+/* ==================================================================
+	>560px
+================================================================== */
+@media screen and (max-width: 520px) {
+	.graf-editoria-page{
+		height: auto;
+		width: 100%;
+
+		div{
+			height: auto !important;
+		}
+
+		img{
+			width: 100%;
+			height: auto;
+		}
+
+	}
+
+}
