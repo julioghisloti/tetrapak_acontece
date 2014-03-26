@@ -1,5 +1,5 @@
 {
-  "name": "jfonseca",
+  "name": "tanclick",
   "version": "0.0.0",
   "description": "",
   "main": "Gulpfile.js",
@@ -18,6 +18,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Julio Ghisloti, Matheus Grigoletto",
+  "author": "Julio Ghisloti",
   "license": "BSD-2-Clause"
 }
