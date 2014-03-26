@@ -195,7 +195,7 @@
 					<div class="slide-text">
 						<a href="http://tetrapakacontece.com.br/temp/gotta-be-o-novo-mandato/">
 							<p style="color: #000;">
-								Uma das últimas realizações da Tetra Pak® em 2013 foi o lançamento do programa Gotta Be, que, em uma tradução livre, significa “Temos que Ser”. Essa expressão passou a ser o novo “mantra” dos colaboradores da empresa que, alinhado com a estratégia 2020, ajudaraé garantir o crescimento lucrativo e sustentável da companhia.
+								Uma das últimas realizações da Tetra Pak® em 2013 foi o lançamento do programa Gotta Be, que, em uma tradução livre, significa “Temos que Ser”. Essa expressão passou a ser o novo “mantra” dos colaboradores da empresa que, alinhado com a estratégia 2020, ajudara é garantir o crescimento lucrativo e sustentável da companhia.
 							</p>
 						</a>
 					</div>
@@ -233,7 +233,7 @@
 					<li class="desenvolvimento"><a href="category/desenvolvimento-de-talentos_atual">Desenvolvimento de Talentos</a></li>
 					<li class="materia-de-capa"><a href="category/capa_atual">Matéria de Capa</a></li>
 					<li class="inovacao"><a href="category/inovacao_atual">Inovação</a></li>
-					<li class="performace-operacional"><a href="category/performace-operacional_atual">Performace Operacional</a></li>
+					<li class="performace-operacional"><a href="category/performace-operacional_atual">Performance Operacional</a></li>
 					<li class="nossa-gente"><a href="category/nossa-gente_atual">Nossa Gente</a></li>
 					<li class="mercado"><a href="category/mercado_atual">Mercado</a></li>
 					<li class="entrevista"><a href="category/entrevista_atual">Entrevista</a></li>
