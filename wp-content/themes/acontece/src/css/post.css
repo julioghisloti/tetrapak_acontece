@@ -414,63 +414,65 @@ b {
   /* line 53, ../scss/post.scss */
   .page img {
     height: auto;
-    width: 100%; }
-  /* line 58, ../scss/post.scss */
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; }
+  /* line 60, ../scss/post.scss */
   .page h1 {
     font-family: "NHaasGroteskDSPro_UltTh", sans-serif;
     font-size: 2em; }
-  /* line 63, ../scss/post.scss */
+  /* line 65, ../scss/post.scss */
   .page h2 {
     line-height: 20px;
     margin-top: 10px;
     font-family: "NHaasGroteskDSPro_Lt", sans-serif;
     font-size: 1.1em;
     font-weight: normal; }
-  /* line 71, ../scss/post.scss */
+  /* line 73, ../scss/post.scss */
   .page p {
     font-family: "NHaasGroteskDSPro_Lt", sans-serif;
     line-height: 20px;
     margin-bottom: 15px;
     text-align: justify; }
-  /* line 78, ../scss/post.scss */
+  /* line 80, ../scss/post.scss */
   .page .destaque_text {
     font-family: "LinoLetterStd_Italic", serif;
     font-size: 1.7em;
     font-style: italic;
     line-height: 31px;
     text-align: right; }
-    /* line 85, ../scss/post.scss */
+    /* line 87, ../scss/post.scss */
     .page .destaque_text span {
       color: #000;
       display: block;
       font-family: "NHaasGroteskDSPro_Md", sans-serif;
       font-size: .7em;
       margin-top: 15px; }
-  /* line 95, ../scss/post.scss */
+  /* line 97, ../scss/post.scss */
   .page .post-top {
     display: block;
     margin-bottom: 30px;
     padding-bottom: 15px;
     padding-top: 15px;
     position: relative; }
-    /* line 102, ../scss/post.scss */
+    /* line 104, ../scss/post.scss */
     .page .post-top .line {
       border-top: 3px solid;
       display: block;
       position: absolute;
       width: 20%; }
-    /* line 109, ../scss/post.scss */
+    /* line 111, ../scss/post.scss */
     .page .post-top ._top {
       top: 0; }
-    /* line 113, ../scss/post.scss */
+    /* line 115, ../scss/post.scss */
     .page .post-top ._bottom {
       bottom: 0; }
-  /* line 120, ../scss/post.scss */
+  /* line 122, ../scss/post.scss */
   .page .post strong {
     font-family: "NHaasGroteskDSPro_Md", sans-serif; }
 
 /*Strong on IE*/
-/* line 131, ../scss/post.scss */
+/* line 133, ../scss/post.scss */
 .no-backgroundsize .post strong {
   font-weight: bold !important; }
 
@@ -478,7 +480,7 @@ b {
 	>1220px
 ================================================================== */
 @media screen and (max-width: 1220px) {
-  /* line 143, ../scss/post.scss */
+  /* line 145, ../scss/post.scss */
   .page .capa-post {
     background-repeat: no-repeat !important;
     height: 350px !important; } }
@@ -486,21 +488,21 @@ b {
 	>910px
 ================================================================== */
 @media screen and (max-width: 910px) {
-  /* line 156, ../scss/post.scss */
+  /* line 158, ../scss/post.scss */
   .page .capa-post {
     height: 300px !important; }
-  /* line 160, ../scss/post.scss */
+  /* line 162, ../scss/post.scss */
   .page .post {
     float: none !important;
     width: 100%; }
-  /* line 165, ../scss/post.scss */
+  /* line 167, ../scss/post.scss */
   .page .destaque {
     display: none !important; } }
 /* ==================================================================
 	>910px
 ================================================================== */
 @media screen and (max-width: 750px) {
-  /* line 176, ../scss/post.scss */
+  /* line 178, ../scss/post.scss */
   .page .capa-post {
     background-position: 0 0 !important;
     background-repeat: no-repeat !important;
